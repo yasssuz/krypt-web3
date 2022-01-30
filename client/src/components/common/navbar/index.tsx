@@ -1,6 +1,7 @@
+import { useState } from "react";
+
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
-import { useState } from "react";
 
 const Navbar = (): JSX.Element => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
